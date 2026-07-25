@@ -1,0 +1,4 @@
+interface:
+  display_name: "Auto Commit"
+  short_description: "Split changes into clean conventional commits"
+  default_prompt: "Use $auto-commit to split my changes into conventional commits."
