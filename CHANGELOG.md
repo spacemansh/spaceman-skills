@@ -1,5 +1,12 @@
 # spaceman-skills
 
+## 0.1.1
+
+### Patch Changes
+
+- [`d93bddd`](https://github.com/spacemansh/spaceman-skills/commit/d93bddd3f66cb9e893f92973b0ee8604de787d5d) Thanks [@tonyedgal](https://github.com/tonyedgal)! - Fix the curl and PowerShell installers installing nothing when piped, and report
+  progress as they run.
+
 ## 0.1.0
 
 ### Minor Changes
