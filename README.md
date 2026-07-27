@@ -24,19 +24,27 @@ Needs Node.js 22 or newer. Safe to re-run.
 
 <br>
 
-Both installers forward their flags to the [skills CLI](https://skills.sh/docs/cli),
-so anything it accepts works:
+Piped through `curl` there is no terminal to prompt at, so the installer picks
+every skill and every detected agent for you. Pass `--skill` or `--agent` to
+narrow it; whatever you pass wins:
 
 ```sh
 # just the auto-commit skill
 curl -fsSL https://raw.githubusercontent.com/spacemansh/spaceman-skills/main/install.sh | bash -s -- --skill auto-commit
 
-# every detected agent, no prompts
-curl -fsSL https://raw.githubusercontent.com/spacemansh/spaceman-skills/main/install.sh | bash -s -- --agent '*' --yes
+# one agent
+curl -fsSL https://raw.githubusercontent.com/spacemansh/spaceman-skills/main/install.sh | bash -s -- --agent claude-code
 
 # see what is in here, install nothing
 curl -fsSL https://raw.githubusercontent.com/spacemansh/spaceman-skills/main/install.sh | bash -s -- --list
+
+# print the command that would run, install nothing
+curl -fsSL https://raw.githubusercontent.com/spacemansh/spaceman-skills/main/install.sh | DRY_RUN=1 bash
 ```
+
+Run `bash install.sh` from a clone and it stays interactive, letting the CLI
+prompt for skills and agents. Installs are project-scoped by default; add
+`--global` for user level.
 
 `iex` cannot pass arguments, so on PowerShell run the script as a scriptblock:
 
