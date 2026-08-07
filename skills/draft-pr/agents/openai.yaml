@@ -1,0 +1,4 @@
+interface:
+  display_name: "Draft PR"
+  short_description: "Open a clean draft pull request with gh"
+  default_prompt: "Use $draft-pr to open a draft pull request for this work."
