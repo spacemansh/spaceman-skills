@@ -1,5 +1,17 @@
 # spaceman-skills
 
+## 0.2.0
+
+### Minor Changes
+
+- [#4](https://github.com/spacemansh/spaceman-skills/pull/4) [`3aaa43b`](https://github.com/spacemansh/spaceman-skills/commit/3aaa43b9f3aaa7dc3184f8cc04b36f233e464855) Thanks [@tonyedgal](https://github.com/tonyedgal)! - Add the draft-pr skill, which publishes local work as a draft pull request with
+  the gh CLI and verifies it on the remote.
+
+### Patch Changes
+
+- [#4](https://github.com/spacemansh/spaceman-skills/pull/4) [`37fe00a`](https://github.com/spacemansh/spaceman-skills/commit/37fe00a0de5cfc8f5d0da2b93ae4107562e0a7bd) Thanks [@tonyedgal](https://github.com/tonyedgal)! - Refine the auto-commit split rules: separate a fix from its tests, split large
+  diffs by feature, and list the phrases that trigger the skill.
+
 ## 0.1.1
 
 ### Patch Changes
