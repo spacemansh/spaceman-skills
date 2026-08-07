@@ -17,8 +17,12 @@ description: >
 
 Turn a dirty working tree into a small series of clean, self-contained
 Conventional Commits. Read the changes, group them by the work they do, stage
-each group precisely, and commit it with a message that carries no trace of
-having been written by an agent.
+each group precisely, and commit it with no Co-Authored-By or any AI attribution added.
+
+## When to Use
+
+- User says "auto commit", "batch commit", "commit and push".
+- User triggers `/auto-commit`
 
 ## Workflow
 
@@ -48,7 +52,7 @@ Stop and report instead of committing when:
 
 ### 2. Read the diff, not the file list
 
-Grouping decisions depend on what the change *does*. File names are not enough.
+Grouping decisions depend on what the change _does_. File names are not enough.
 For large diffs, read them per path (`git diff -- <path>`) rather than skimming a
 truncated whole.
 
@@ -57,9 +61,13 @@ truncated whole.
 One commit is one coherent unit of work. Split on **intent**, not on file count:
 
 - A feature and the refactor that made room for it are two commits.
+- For larger diffs where this auto-commit skill was not running side by side
+  with the implementation agent, split the resulting work into multiple commits
+  wherein each commit is split based on feature or features and intent. e.g. new API routes,
+  db migrations, new components etc
 - Unrelated `chore` or formatting work is its own commit, never a passenger on a
   `feat`.
-- A fix and the test that proves it belong in the *same* commit.
+- A fix and the test that proves it do not belong in the _same_ commit, separate the test from the fix.
 - Lockfiles, generated files, and snapshots ride with the change that caused
   them.
 - Two unrelated fixes are two commits — unless both live in the same file, which
@@ -71,14 +79,14 @@ Judge a file by what it does, not by its extension. A `.md` file is not
 automatically `docs` work.
 
 - **Release notes come last, once, for the whole batch.** A Changesets entry, a
-  changelog line, or a release note describes the *set* of commits just made, so
+  changelog line, or a release note describes the _set_ of commits just made, so
   it cannot live inside one of them. Write a single entry as the final commit of
   the chain, summarizing everything in the batch. Never fold one into the feature
   commit it announces: the feature commit says what changed, the release note says
   what shipped. Use `chore:` for entries a tool consumes (`.changeset/*.md`) and
   `docs:` for a hand-maintained `CHANGELOG.md` that people read.
 - **Rides with the change it explains.** A migration note or a decision record
-  written to justify *this* change is part of it, and goes in the same commit
+  written to justify _this_ change is part of it, and goes in the same commit
   under that commit's type.
 - **Its own `docs:` commit.** Documentation that is itself the deliverable: a
   README, a guide, a reference page, a typo fix.
@@ -100,7 +108,7 @@ dependency changes first, then refactors, then features and fixes, then docs.
 
 Config is not automatically first. CI and release configuration is the common
 trap: it reads like config, but a workflow that runs a build, a lint, or a test is
-a *consumer* of everything that build touches, so it belongs after the code and
+a _consumer_ of everything that build touches, so it belongs after the code and
 scripts it invokes.
 
 Do not split when the result would be a commit that cannot stand alone — a
@@ -148,7 +156,7 @@ intended change before writing the message.
 
 **Body — omit it by default.** Add one only when:
 
-- the *why* cannot be recovered from the diff (a non-obvious constraint, a
+- the _why_ cannot be recovered from the diff (a non-obvious constraint, a
   workaround, a decision that looks wrong without context); or
 - the commit needs an issue footer, since a footer is only permitted alongside a
   body.
