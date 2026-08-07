@@ -69,6 +69,8 @@ installs at user level instead of per project, `--list` shows what is available,
 
 - [`auto-commit`](./skills/auto-commit/SKILL.md) — split a dirty working tree
   into clean Conventional Commits, with no agent attribution.
+- [`draft-pr`](./skills/draft-pr/SKILL.md) — publish local work as a clean draft
+  pull request with the `gh` CLI, and verify it on the remote.
 
 ## Development
 
