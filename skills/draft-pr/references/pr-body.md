@@ -34,6 +34,7 @@ covers most pull requests.
 
 - Rendered Markdown. Do not hard-wrap prose to 72 or 80 columns — that is a
   commit-message rule, and here it produces ragged output.
+- ASD-STE (Simplified Technical English) for the prose.
 - Prose over bullet soup. Use a list when the items are genuinely parallel, not
   as a way to avoid writing sentences.
 - Reference issues where the repository expects it: `Closes #42` links and closes
