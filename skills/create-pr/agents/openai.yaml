@@ -1,0 +1,4 @@
+interface:
+  display_name: "Create PR"
+  short_description: "Open a review-ready pull request with gh"
+  default_prompt: "Use $create-pr to open a pull request for this work."
