@@ -1,0 +1,4 @@
+interface:
+  display_name: "Resolve Merge Conflicts"
+  short_description: "Finish a conflicted merge or rebase deliberately"
+  default_prompt: "Use $resolve-merge-conflicts to finish this conflicted merge."
