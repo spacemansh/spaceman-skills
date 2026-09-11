@@ -128,8 +128,9 @@ section is worse than no section.
 
 Do not hard-wrap the prose. Commit bodies wrap at 72 characters, but a pull request
 body is rendered Markdown and must not carry manual line breaks. Write the title
-and body in English whatever language the conversation used, keeping non-English
-text only when it is existing content, a quotation, or an identifier. Preserve
+and body in English, in ASD-STE (Simplified Technical English), whatever language
+the conversation used, keeping non-English text only when it is existing content, a
+quotation, or an identifier. Preserve
 meaningful existing body content such as screenshots, links, issue references,
 release notes, and reviewer notes, and never overwrite a human-written title unless
 the user asked for a rewrite or it is clearly a generated placeholder.
