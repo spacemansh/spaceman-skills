@@ -69,8 +69,12 @@ installs at user level instead of per project, `--list` shows what is available,
 
 - [`auto-commit`](./skills/auto-commit/SKILL.md) — split a dirty working tree
   into clean Conventional Commits, with no agent attribution.
+- [`create-pr`](./skills/create-pr/SKILL.md) — publish finished work as a pull
+  request that is ready for review, with the checks run first.
 - [`draft-pr`](./skills/draft-pr/SKILL.md) — publish local work as a clean draft
   pull request with the `gh` CLI, and verify it on the remote.
+- [`resolve-merge-conflicts`](./skills/resolve-merge-conflicts/SKILL.md) — finish
+  a conflicted merge or rebase without inventing behaviour or losing work.
 
 ## Development
 
