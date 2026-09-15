@@ -67,13 +67,13 @@ installs at user level instead of per project, `--list` shows what is available,
 
 ## Skills
 
-- [`auto-commit`](./skills/auto-commit/SKILL.md) — split a dirty working tree
+- [`auto-commit`](./skills/git/auto-commit/SKILL.md) — split a dirty working tree
   into clean Conventional Commits, with no agent attribution.
-- [`create-pr`](./skills/create-pr/SKILL.md) — publish finished work as a pull
+- [`create-pr`](./skills/git/create-pr/SKILL.md) — publish finished work as a pull
   request that is ready for review, with the checks run first.
-- [`draft-pr`](./skills/draft-pr/SKILL.md) — publish local work as a clean draft
+- [`draft-pr`](./skills/git/draft-pr/SKILL.md) — publish local work as a clean draft
   pull request with the `gh` CLI, and verify it on the remote.
-- [`resolve-merge-conflicts`](./skills/resolve-merge-conflicts/SKILL.md) — finish
+- [`resolve-merge-conflicts`](./skills/git/resolve-merge-conflicts/SKILL.md) — finish
   a conflicted merge or rebase without inventing behaviour or losing work.
 
 ## Development
