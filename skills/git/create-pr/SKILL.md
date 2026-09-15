@@ -85,7 +85,7 @@ this one can be present without `auto-commit` beside it: read the sibling copy a
 source.
 
 ```
-https://raw.githubusercontent.com/spacemansh/spaceman-skills/main/skills/auto-commit/SKILL.md
+https://raw.githubusercontent.com/spacemansh/spaceman-skills/main/skills/git/auto-commit/SKILL.md
 ```
 
 ### 3. Get onto a topic branch
@@ -198,5 +198,5 @@ lives with the `draft-pr` skill. Read the sibling copy at
 from source.
 
 ```
-https://raw.githubusercontent.com/spacemansh/spaceman-skills/main/skills/draft-pr/references/pr-body.md
+https://raw.githubusercontent.com/spacemansh/spaceman-skills/main/skills/git/draft-pr/references/pr-body.md
 ```

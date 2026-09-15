@@ -112,7 +112,7 @@ beside it: read the sibling copy at `../auto-commit/SKILL.md` when it is install
 and otherwise fetch it from source.
 
 ```
-https://raw.githubusercontent.com/spacemansh/spaceman-skills/main/skills/auto-commit/SKILL.md
+https://raw.githubusercontent.com/spacemansh/spaceman-skills/main/skills/git/auto-commit/SKILL.md
 ```
 
 ## Report
