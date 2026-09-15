@@ -1,5 +1,17 @@
 # spaceman-skills
 
+## 0.3.0
+
+### Minor Changes
+
+- [#6](https://github.com/spacemansh/spaceman-skills/pull/6) [`a0947ff`](https://github.com/spacemansh/spaceman-skills/commit/a0947ffc632b5158533534afaf2ff4fa4293311e) Thanks [@tonyedgal](https://github.com/tonyedgal)! - Add the create-pr and resolve-merge-conflicts skills, and write pull request
+  bodies in ASD-STE.
+
+### Patch Changes
+
+- [#6](https://github.com/spacemansh/spaceman-skills/pull/6) [`636b543`](https://github.com/spacemansh/spaceman-skills/commit/636b543a69e9c223050018b01e59d97f1b971d90) Thanks [@tonyedgal](https://github.com/tonyedgal)! - Correct the raw fallback URLs and readme links that the move to the git
+  subdirectory left pointing at the old paths.
+
 ## 0.2.0
 
 ### Minor Changes
