@@ -19,6 +19,12 @@ irm https://raw.githubusercontent.com/spacemansh/spaceman-skills/main/install.ps
 
 Needs Node.js 22 or newer. Safe to re-run.
 
+Or use the skills CLI directly:
+
+```sh
+npx skills add spacemansh/spaceman-skills
+```
+
 <details>
 <summary><strong>Install one skill, pick your agents, or use the CLI directly</strong></summary>
 
