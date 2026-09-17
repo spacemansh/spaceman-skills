@@ -1,5 +1,12 @@
 # spaceman-skills
 
+## 0.4.0
+
+### Minor Changes
+
+- [#8](https://github.com/spacemansh/spaceman-skills/pull/8) [`9ec0489`](https://github.com/spacemansh/spaceman-skills/commit/9ec0489b6e0a32c3e2540c3330a7ef76786e6229) Thanks [@tonyedgal](https://github.com/tonyedgal)! - Add the reply skill: ASD-STE100 response style with table, list, concise, and
+  extreme modes, persistent for the session.
+
 ## 0.3.0
 
 ### Minor Changes
