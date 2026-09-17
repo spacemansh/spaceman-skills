@@ -1,0 +1,4 @@
+interface:
+  display_name: "Reply"
+  short_description: "Reply in short, plain ASD-STE100 style"
+  default_prompt: "Use $reply to answer in concise ASD-STE100 style for the rest of this session."
