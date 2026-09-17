@@ -73,6 +73,8 @@ installs at user level instead of per project, `--list` shows what is available,
 
 ## Skills
 
+### git
+
 - [`auto-commit`](./skills/git/auto-commit/SKILL.md) — split a dirty working tree
   into clean Conventional Commits, with no agent attribution.
 - [`create-pr`](./skills/git/create-pr/SKILL.md) — publish finished work as a pull
@@ -81,6 +83,12 @@ installs at user level instead of per project, `--list` shows what is available,
   pull request with the `gh` CLI, and verify it on the remote.
 - [`resolve-merge-conflicts`](./skills/git/resolve-merge-conflicts/SKILL.md) — finish
   a conflicted merge or rebase without inventing behaviour or losing work.
+
+### response-style
+
+- [`reply`](./skills/response-style/reply/SKILL.md) — reply in short, plain
+  ASD-STE100 style for the rest of the session, with table, list, concise, and
+  extreme modes.
 
 ## Development
 
