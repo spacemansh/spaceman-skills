@@ -1,0 +1,4 @@
+interface:
+  display_name: "Spaceman App Design"
+  short_description: "Design tactile, native, rhythmic iOS app screens"
+  default_prompt: "Use $spaceman-app-design to design or audit this app screen."
