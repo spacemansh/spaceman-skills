@@ -73,6 +73,12 @@ installs at user level instead of per project, `--list` shows what is available,
 
 ## Skills
 
+### design
+
+- [`spaceman-app-design`](./skills/design/spaceman-app-design/SKILL.md) — design
+  tactile, native iOS screens: pick squircle or stadium, lock the radii, frame
+  nested corners, and audit before shipping.
+
 ### git
 
 - [`auto-commit`](./skills/git/auto-commit/SKILL.md) — split a dirty working tree
